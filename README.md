@@ -2,9 +2,9 @@
 
 Frontend and authentication layer of **WedPlan**, a role-based wedding planning platform. Customers discover wedding services and request bookings, vendors publish services and manage requests (with a Stripe-powered Premium plan), and admins moderate users, services and transactions.
 
-- **Live website:** `https://your-client.vercel.app` _(add after deploying)_
-- **Client repository:** `https://github.com/<you>/wedplan-client`
-- **Server repository:** `https://github.com/<you>/wedplan-server`
+- **Live website:** [https://wedplan-client-self.vercel.app](https://wedplan-client-self.vercel.app)
+- **Client repository:** [https://github.com/hridi61/wedplan-client](https://github.com/hridi61/wedplan-client)
+- **Server repository:** [https://github.com/hridi61/wedplan-server](https://github.com/hridi61/wedplan-server)
 
 ## Important features
 
@@ -23,7 +23,7 @@ Next.js 15 (App Router), React 19, Tailwind CSS, shadcn/ui-style components (Rad
 ## Installation
 
 ```bash
-git clone https://github.com/<you>/wedplan-client.git
+git clone https://github.com/hridi61/wedplan-client.git
 cd wedplan-client
 npm install
 cp .env.example .env.local   # then fill in the values
@@ -74,4 +74,4 @@ Better Auth keeps the session in an HTTP-only cookie. For API calls the client a
 
 ## Photo credits
 
-Photos are from Unsplash (free to use under the [Unsplash License](https://unsplash.com/license)): Josh Batres (couple), Adrien Olichon (venue), Jamie Coupaud (flowers), Benjamin Brunner (catering table), Victoria Priessnitz (makeup), Vivek Baghel (bridal fashion). Real vendors upload their own images through ImgBB.
+Photos are from Unsplash (free to use under the [Unsplash License](https://unsplash.com/license)): Josh Batres (couple), Adrien Olichon (venue), Jamie Coupaud (flowers), Benjamin Brunner (catering table), Victoria Priessnitz (makeup), Vivek Baghel (bridal fashion), Ben Atkins (couple in a garden), Jonathan Borba (outdoor ceremony setup), Alexander Mass (beach wedding aisle), Thomas Beaman (set dining table), Talha Hadi (bridal fashion). Real vendors upload their own images through ImgBB.
