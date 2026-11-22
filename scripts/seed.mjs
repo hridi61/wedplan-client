@@ -32,25 +32,30 @@ if (vendor) {
   const photo = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1200&q=70`;
   const P = {
     film: "photo-1722805740177-04256b6517f2",
+    film2: "photo-1588955690622-47372b85d79b", // Dmitriy Frantsev
     portrait: "photo-1759271493839-be0cf1d86537",
+    portrait2: "photo-1781211985596-f93879e1585d", // Negar Nikkhah
     garden: "photo-1769812344081-92b3e2ac39c0",
+    garden2: "photo-1758810411905-04fb6f9396e1", // Pedro Pulido
     ballroom: "photo-1762765685348-4bced247d12c",
+    ballroom2: "photo-1759519238029-689e99c6d19e", // Sergei Kondalov
     floral: "photo-1783818413085-b6ec40e8e818",
-    floral2: "photo-1570924751227-8153476322f9",
+    floral2: "photo-1785744530706-71fd26baac6a", // elisadventure photographe
     catering: "photo-1676734628558-624737d3e094",
-    catering2: "photo-1695641738244-25e5355e9a42",
+    catering2: "photo-1564638305579-5e395c9b62c7", // Tim Cooper
     makeup: "photo-1592343516059-cf2712eb0dee",
+    makeup2: "photo-1774814304885-bb5cc796a6c3", // Rodrigo Rodrigues
     tailor: "photo-1707576763859-19e8c69450ad",
-    tailor2: "photo-1588842867976-fd084ca2c87b",
+    tailor2: "photo-1785765599557-f3666cdc095a", // Sushanta Rokka
   };
   const base = [
-    ["Cinematic Wedding Films", "Photography & Videography", 1200, "Dhaka", "A two-person crew covering your ceremony and reception, delivered as a 5-minute highlight film and a full-length edit.", [P.film, P.portrait]],
-    ["Signature Wedding Portraits", "Photography & Videography", 650, "Chattogram", "Natural-light portraits of the couple and family, with 300+ edited photos in an online gallery.", [P.portrait, P.film]],
-    ["Lakeside Garden Venue", "Wedding Venues", 3500, "Sylhet", "An open-air garden venue for up to 400 guests with a covered stage, bridal suite and parking.", [P.garden, P.ballroom]],
-    ["Grand Ballroom Hall", "Wedding Venues", 4800, "Dhaka", "Air-conditioned ballroom with a 600-guest capacity, in-house sound and lighting.", [P.ballroom, P.garden]],
+    ["Cinematic Wedding Films", "Photography & Videography", 1200, "Dhaka", "A two-person crew covering your ceremony and reception, delivered as a 5-minute highlight film and a full-length edit.", [P.film, P.film2]],
+    ["Signature Wedding Portraits", "Photography & Videography", 650, "Chattogram", "Natural-light portraits of the couple and family, with 300+ edited photos in an online gallery.", [P.portrait, P.portrait2]],
+    ["Lakeside Garden Venue", "Wedding Venues", 3500, "Sylhet", "An open-air garden venue for up to 400 guests with a covered stage, bridal suite and parking.", [P.garden, P.garden2]],
+    ["Grand Ballroom Hall", "Wedding Venues", 4800, "Dhaka", "Air-conditioned ballroom with a 600-guest capacity, in-house sound and lighting.", [P.ballroom, P.ballroom2]],
     ["Floral Stage & Entrance Design", "Decoration & Florist", 900, "Dhaka", "Fresh-flower stage backdrops, aisle arrangements and table centrepieces matched to your colours.", [P.floral, P.floral2]],
     ["Traditional Biye Catering", "Catering Services", 15, "Dhaka", "Per-guest pricing for a full traditional menu, with live stations and trained serving staff.", [P.catering, P.catering2]],
-    ["Bridal Makeup & Styling", "Makeup & Styling", 300, "Rajshahi", "Trial session plus ceremony-day makeup and hair for the bride and two family members.", [P.makeup, P.portrait]],
+    ["Bridal Makeup & Styling", "Makeup & Styling", 300, "Rajshahi", "Trial session plus ceremony-day makeup and hair for the bride and two family members.", [P.makeup, P.makeup2]],
     ["Custom Sherwani & Saree Tailoring", "Wedding Fashion", 450, "Khulna", "Made-to-measure outfits for the couple with two fittings and an alteration window before the date.", [P.tailor, P.tailor2]],
   ];
   const now = new Date();
