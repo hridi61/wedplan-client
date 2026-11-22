@@ -44,8 +44,9 @@ export default function DashboardLayout({ children }) {
   useEffect(() => {
     if (isPending) return;
     if (!session) router.replace(`/signin?redirect=${encodeURIComponent(pathname)}`);
+    else if (isRoot) router.replace(`/dashboard/${role || "customer"}`); // /dashboard itself: go to the role's dashboard
     else if (!allowed) router.replace(`/dashboard/${role}`); // wrong role: bounce to own dashboard
-  }, [isPending, session, allowed, role, pathname, router]);
+  }, [isPending, session, allowed, isRoot, role, pathname, router]);
 
   // The API is the source of truth for blocked accounts
   useEffect(() => {
